@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/design.css">
+    <title>Covid-19 Home</title>
+</head>
+<body>
+    <header class="header" >
+        <img src="../public/assets/logo.png">
+        <a href="tracker.html" class="tracker">COVID-19 TRACKER</a>
+        <ul>
+            <li id="home"><a href="home.html">HOME</a></li>
+            <li id="track"><a href="#symptoms">SYMPTOMS</a></li>
+            <li id="searchbar">
+                <input type="text" name="country" id="country" placeholder="Search for country..." autocomplete="off"> 
+            </li>
+            <button type="button" id="search">Search</button>
+            
+        </ul>
+    </header>
+    
+    <div class="global" id="global">
+        <h id="mainhead">GLOBAL SCENERIO</h>
+        <h4 id="time">LAST UPDATE TIME : 2021-05-15 T 12:14:23.064Z</h4>
+        <div class="row1">
+            <div class="card">
+                <div class="upper"><h1 id="newconfirm"></h1></div>
+                <div class="lower">New Cases Confirmed</div>
+            </div>
+            <div class="card">
+                <div class="upper"><h1 id="newdead"></h1></div>
+                <div class="lower">New Cases Death</div>
+            </div>
+            <div class="card">
+                <div class="upper"><h1 id="newrecover"></h1></div>
+                <div class="lower">New Cases Recovery</div>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="card">
+                <div class="upper"><h1 id="totalconfirm"></h1></div>
+                <div class="lower">Total Cases Confirmed</div>
+            </div>
+            <div class="card">
+                <div class="upper"><h1 id="totaldead"></h1></div>
+                <div class="lower">Total Cases Death</div>
+            </div>
+            <div class="card">
+                <div class="upper"><h1 id="totalrecover"></h1></div>
+                <div class="lower">Total Cases Recovery</div>
+            </div>
+        </div>
+    </div>
+
+<hr class="hr1">
+    <div id="symptoms">
+     <div class="one">
+         <img src="assets/chestpain.jpg">
+         <img src="assets/diarrohea.png">
+         <img src="assets/fever.jpg">
+     </div>
+     <div class="two">
+         <img src="assets/headache.png">
+         <img src="assets/rahsskin.jpg">
+         <img src="assets/smell.jpg">
+     </div>
+     <div class="three">
+         <img src="assets/sorethroat.png">
+         <img src="assets/tiredness.jpg">
+     </div>
+    </div>
+<hr class="hr2">
+
+
+<script src="src/js/app.js"></script>
+</body>
+</html>
